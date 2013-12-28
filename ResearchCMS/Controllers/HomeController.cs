@@ -19,11 +19,5 @@ namespace ResearchCMS.Controllers
             //ViewBag.Message = "Your app description page.";
             return View();
         }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Contact the researcher";
-            return View();
-        }
     }
 }
